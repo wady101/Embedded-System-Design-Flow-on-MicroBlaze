@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\xup\embedded\2018_2_microblz\lab4\lab4.sdk\lab4\Debug\lab4.elf" key="system_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="Digilent Nexys 4 DDR 210292576523A/1-xc7a100t" key="ZC702_hw_platform-device"/>
+	<item value="C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\mem_test\Debug\mem_test.elf" key="system_wrapper_hw_platform_1-microblaze_0-initElf"/>
+	<item value="C:\xup\embedded\2018_2_microblz\lab1\lab1.runs\impl_1\system_wrapper.bit" key="ZC702_hw_platform-bitFile"/>
+	<item value="" key="ZC702_hw_platform-bmmFile"/>
+	<item value="false" key="ZC702_hw_platform-partial_bit"/>
+	<item value="Digilent Nexys 4 DDR 210292576523A/1-xc7a100t" key="system_wrapper_hw_platform_0-device"/>
+	<item value="Digilent Nexys 4 DDR 210292576523A/1-xc7a100t" key="system_wrapper_hw_platform_1-device"/>
+	<item value="Local" key="system_wrapper_hw_platform_0-target"/>
+	<item value="system_wrapper.bit" key="system_wrapper_hw_platform_1-bitFile"/>
+	<item value="false" key="system_wrapper_hw_platform_1-partial_bit"/>
+	<item value="system_wrapper.bit" key="system_wrapper_hw_platform_0-bitFile"/>
+	<item value="system_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="false" key="system_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="ZC702_hw_platform-target"/>
+	<item value="system_wrapper.mmi" key="system_wrapper_hw_platform_0-bmmFile"/>
+	<item value="system_wrapper.mmi" key="system_wrapper_hw_platform_1-bmmFile"/>
+	<item value="Local" key="system_wrapper_hw_platform_1-target"/>
+</section>

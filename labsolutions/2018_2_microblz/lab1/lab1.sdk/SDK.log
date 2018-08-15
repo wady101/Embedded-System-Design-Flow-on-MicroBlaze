@@ -1,0 +1,905 @@
+16:23:44 INFO  : Registering command handlers for SDK TCF services
+16:23:46 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+16:23:55 INFO  : XSCT server has started successfully.
+16:23:55 INFO  : Successfully done setting XSCT server connection channel  
+16:24:03 INFO  : Successfully done setting SDK workspace  
+16:24:03 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+16:42:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:42:32 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+16:42:32 INFO  : 'jtag frequency' command is executed.
+16:42:32 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+16:42:34 INFO  : Context for 'APU' is selected.
+16:42:34 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+16:42:34 INFO  : 'configparams force-mem-access 1' command is executed.
+16:42:35 INFO  : Context for 'APU' is selected.
+16:42:35 INFO  : 'stop' command is executed.
+16:42:38 INFO  : 'ps7_init' command is executed.
+16:42:38 INFO  : 'ps7_post_config' command is executed.
+16:42:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:42:38 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:42:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:42:39 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:42:39 INFO  : 'configparams force-mem-access 0' command is executed.
+16:42:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:42:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:42:39 INFO  : 'con' command is executed.
+16:42:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+con
+----------------End of Script----------------
+
+16:42:39 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+16:43:48 INFO  : Disconnected from the channel tcfchan#1.
+16:43:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:43:50 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+16:43:50 INFO  : 'jtag frequency' command is executed.
+16:43:50 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+16:43:50 INFO  : Context for 'APU' is selected.
+16:43:50 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+16:43:50 INFO  : 'configparams force-mem-access 1' command is executed.
+16:43:50 INFO  : Context for 'APU' is selected.
+16:43:50 INFO  : 'stop' command is executed.
+16:43:50 ERROR : AP transaction error, DAP status f0000021
+16:43:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+16:44:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:24 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+16:44:24 INFO  : 'jtag frequency' command is executed.
+16:44:24 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+16:44:24 INFO  : Context for 'APU' is selected.
+16:44:24 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+16:44:24 INFO  : 'configparams force-mem-access 1' command is executed.
+16:44:24 INFO  : Context for 'APU' is selected.
+16:44:25 INFO  : 'stop' command is executed.
+16:44:25 ERROR : AP transaction error, DAP status f0000021
+16:44:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+09:32:33 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+09:32:39 INFO  : XSCT server has started successfully.
+09:32:42 INFO  : Successfully done setting XSCT server connection channel  
+09:32:42 INFO  : Successfully done setting SDK workspace  
+09:32:52 INFO  : Registering command handlers for SDK TCF services
+09:32:52 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+09:32:53 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+09:32:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1533750317195,  Project:1533741768033
+09:32:53 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+09:32:53 INFO  : Copied contents of C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+09:32:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:32:54 INFO  : Clearing existing target manager status.
+09:32:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:32:54 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+09:45:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:45:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:45:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+09:45:42 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.runs/impl_1/system_wrapper.bit"
+09:45:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:45:58 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+09:45:58 INFO  : 'jtag frequency' command is executed.
+09:45:58 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+09:45:58 INFO  : Context for 'APU' is selected.
+09:45:59 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+09:45:59 INFO  : 'configparams force-mem-access 1' command is executed.
+09:45:59 INFO  : Context for 'APU' is selected.
+09:45:59 INFO  : 'stop' command is executed.
+09:45:59 INFO  : 'ps7_init' command is executed.
+09:45:59 INFO  : 'ps7_post_config' command is executed.
+09:46:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:46:00 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+09:46:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:46:00 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:46:00 INFO  : 'configparams force-mem-access 0' command is executed.
+09:46:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:46:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:46:00 INFO  : 'con' command is executed.
+09:46:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+con
+----------------End of Script----------------
+
+09:46:00 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+09:46:43 INFO  : Disconnected from the channel tcfchan#1.
+09:46:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:46:45 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+09:46:45 INFO  : 'jtag frequency' command is executed.
+09:46:45 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+09:46:45 INFO  : Context for 'APU' is selected.
+09:46:45 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+09:46:45 INFO  : 'configparams force-mem-access 1' command is executed.
+09:46:45 INFO  : Context for 'APU' is selected.
+09:46:45 INFO  : 'stop' command is executed.
+09:46:45 ERROR : AP transaction error, DAP status f0000021
+09:46:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+09:48:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:48:14 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+09:48:14 INFO  : 'jtag frequency' command is executed.
+09:48:14 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+09:48:14 INFO  : Context for 'APU' is selected.
+09:48:14 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+09:48:14 INFO  : 'configparams force-mem-access 1' command is executed.
+09:48:14 INFO  : Context for 'APU' is selected.
+09:48:14 INFO  : 'stop' command is executed.
+09:48:14 ERROR : AP transaction error, DAP status f0000021
+09:48:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+09:48:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:48:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+09:48:36 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.runs/impl_1/system_wrapper.bit"
+09:48:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:48:48 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+09:48:48 INFO  : 'jtag frequency' command is executed.
+09:48:48 INFO  : Sourcing of 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+09:48:49 INFO  : Context for 'APU' is selected.
+09:48:49 INFO  : Hardware design information is loaded from 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf'.
+09:48:49 INFO  : 'configparams force-mem-access 1' command is executed.
+09:48:49 INFO  : Context for 'APU' is selected.
+09:48:49 INFO  : 'stop' command is executed.
+09:48:49 ERROR : AP transaction error, DAP status f0000021
+09:48:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+loadhw -hw C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+10:54:42 INFO  : Registering command handlers for SDK TCF services
+10:54:44 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+10:57:23 INFO  : XSCT server has started successfully.
+10:57:42 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+10:57:43 INFO  : Successfully done setting XSCT server connection channel  
+10:57:44 INFO  : Successfully done setting SDK workspace  
+11:40:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+11:42:50 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper_hw_platform_0/download.bit"
+11:44:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:44:17 INFO  : 'fpga -state' command is executed.
+11:44:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:44:18 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:44:27 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:44:27 INFO  : 'jtag frequency' command is executed.
+11:44:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:44:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:28 INFO  : Processor reset is completed for 'microblaze_0'.
+11:44:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:28 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+11:44:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 1
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+11:44:29 INFO  : Memory regions updated for context PA
+11:44:29 INFO  : Memory regions updated for context PA
+11:44:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:30 INFO  : 'con' command is executed.
+11:44:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 1
+con
+----------------End of Script----------------
+
+11:44:30 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+11:48:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+11:48:12 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper_hw_platform_0/download.bit"
+11:48:35 INFO  : Disconnected from the channel tcfchan#1.
+11:48:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:48:37 INFO  : 'fpga -state' command is executed.
+11:48:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:38 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:49:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:52:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:52:18 INFO  : 'fpga -state' command is executed.
+11:52:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:52:19 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:52:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:55:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:55:24 INFO  : 'fpga -state' command is executed.
+11:55:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:55:25 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:57:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:58:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:57 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:58:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:59:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+11:59:29 INFO  : 'fpga -state' command is executed.
+11:59:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:29 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:59:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:59:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:54 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+11:59:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:00:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:16 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:02:16 INFO  : 'jtag frequency' command is executed.
+12:02:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:02:20 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.runs/impl_1/system_wrapper.bit"
+12:02:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:02:21 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:21 INFO  : Processor reset is completed for 'microblaze_0'.
+12:02:21 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:21 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+12:02:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0
+fpga -file C:/xup/embedded/2018_2_microblz/lab1/lab1.runs/impl_1/system_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+12:02:22 INFO  : Memory regions updated for context PA
+12:02:22 INFO  : Memory regions updated for context PA
+12:02:22 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:22 INFO  : 'con' command is executed.
+12:02:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+12:02:22 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+12:03:46 INFO  : Disconnected from the channel tcfchan#2.
+12:03:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:03:47 INFO  : 'fpga -state' command is executed.
+12:03:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:03:47 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:03:47 INFO  : 'jtag frequency' command is executed.
+12:03:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:03:47 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:47 INFO  : Processor reset is completed for 'microblaze_0'.
+12:03:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:48 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+12:03:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+12:03:48 INFO  : Memory regions updated for context PA
+12:03:48 INFO  : Memory regions updated for context PA
+12:03:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:48 INFO  : 'con' command is executed.
+12:03:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+12:03:48 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+12:05:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:05:40 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper_hw_platform_0/download.bit"
+12:06:32 INFO  : Disconnected from the channel tcfchan#3.
+12:06:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:06:33 INFO  : 'fpga -state' command is executed.
+12:06:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:33 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:06:33 INFO  : 'jtag frequency' command is executed.
+12:06:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:06:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:34 INFO  : Processor reset is completed for 'microblaze_0'.
+12:06:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:34 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+12:06:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+12:06:34 INFO  : Memory regions updated for context PA
+12:06:34 INFO  : Memory regions updated for context PA
+12:06:35 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:35 INFO  : 'con' command is executed.
+12:06:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+12:06:35 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+12:15:09 INFO  : Disconnected from the channel tcfchan#4.
+12:16:23 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+12:16:59 INFO  : XSCT server has started successfully.
+12:16:59 INFO  : Successfully done setting XSCT server connection channel  
+12:17:17 INFO  : Successfully done setting SDK workspace  
+12:17:21 INFO  : Registering command handlers for SDK TCF services
+12:17:24 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+12:17:24 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+12:17:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1533809739718,  Project:1533750317195
+12:17:24 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+12:17:24 INFO  : Copied contents of C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+12:17:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:17:25 INFO  : Clearing existing target manager status.
+12:17:25 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:17:25 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:24:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:24:55 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper_hw_platform_0/download.bit"
+12:25:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+12:25:08 INFO  : 'fpga -state' command is executed.
+12:25:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:09 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+12:25:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:25:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:25:49 INFO  : 'fpga -state' command is executed.
+12:25:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:49 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:25:49 INFO  : 'jtag frequency' command is executed.
+12:25:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:25:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:25:50 INFO  : Memory regions updated for context PA
+12:25:50 INFO  : Memory regions updated for context PA
+12:25:50 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+12:26:06 INFO  : Disconnected from the channel tcfchan#1.
+12:26:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:26:07 INFO  : 'fpga -state' command is executed.
+12:26:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:26:07 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:26:07 INFO  : 'jtag frequency' command is executed.
+12:26:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:26:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:26:07 INFO  : Memory regions updated for context PA
+12:26:07 INFO  : Memory regions updated for context PA
+12:26:07 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+12:26:15 INFO  : Disconnected from the channel tcfchan#2.
+12:26:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:26:17 INFO  : 'fpga -state' command is executed.
+12:26:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:26:17 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:26:17 INFO  : 'jtag frequency' command is executed.
+12:26:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:26:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:26:18 INFO  : Memory regions updated for context PA
+12:26:18 INFO  : Memory regions updated for context PA
+12:26:18 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+12:26:49 INFO  : Disconnected from the channel tcfchan#3.
+12:26:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:26:50 INFO  : 'fpga -state' command is executed.
+12:26:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:26:50 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:26:50 INFO  : 'jtag frequency' command is executed.
+12:26:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:26:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:26:50 INFO  : Memory regions updated for context PA
+12:26:50 INFO  : Memory regions updated for context PA
+12:26:50 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+12:27:46 INFO  : Disconnected from the channel tcfchan#4.
+12:28:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:28:26 INFO  : 'fpga -state' command is executed.
+12:28:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:28:26 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:28:26 INFO  : 'jtag frequency' command is executed.
+12:28:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:28:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:28:27 INFO  : Memory regions updated for context PA
+12:28:27 INFO  : Memory regions updated for context PA
+12:28:27 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+12:29:15 INFO  : Disconnected from the channel tcfchan#5.
+12:29:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:29:17 INFO  : 'fpga -state' command is executed.
+12:29:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:29:17 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:29:17 INFO  : 'jtag frequency' command is executed.
+12:29:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:29:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:29:17 INFO  : Memory regions updated for context PA
+12:29:17 INFO  : Memory regions updated for context PA
+12:29:17 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+12:29:32 INFO  : Disconnected from the channel tcfchan#6.
+12:29:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+12:29:33 INFO  : 'fpga -state' command is executed.
+12:29:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:29:34 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+12:29:34 INFO  : 'jtag frequency' command is executed.
+12:29:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:29:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+12:29:34 INFO  : Memory regions updated for context PA
+12:29:34 INFO  : Memory regions updated for context PA
+12:29:34 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+13:09:16 INFO  : Disconnected from the channel tcfchan#7.
+13:09:59 INFO  : Registering command handlers for SDK TCF services
+13:10:01 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+13:10:08 INFO  : XSCT server has started successfully.
+13:10:09 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+13:10:09 INFO  : Successfully done setting XSCT server connection channel  
+13:10:09 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+13:10:09 INFO  : Successfully done setting SDK workspace  
+13:10:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1533816516611,  Project:1533809739718
+13:10:13 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+13:10:13 INFO  : Copied contents of C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+13:10:13 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:10:14 INFO  : Clearing existing target manager status.
+13:10:14 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:10:14 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:16:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:16:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+13:16:19 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper_hw_platform_0/download.bit"
+13:23:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+13:23:00 INFO  : 'fpga -state' command is executed.
+13:23:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:23:00 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+13:23:00 INFO  : 'jtag frequency' command is executed.
+13:23:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:23:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+13:23:00 INFO  : Memory regions updated for context PA
+13:23:00 INFO  : Memory regions updated for context PA
+13:23:00 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+13:23:12 INFO  : Disconnected from the channel tcfchan#1.
+13:23:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+13:23:13 INFO  : 'fpga -state' command is executed.
+13:23:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:23:13 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+13:23:13 INFO  : 'jtag frequency' command is executed.
+13:23:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:23:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+13:23:13 INFO  : Memory regions updated for context PA
+13:23:13 INFO  : Memory regions updated for context PA
+13:23:13 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+13:25:36 INFO  : Disconnected from the channel tcfchan#2.
+13:25:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+13:25:37 INFO  : 'fpga -state' command is executed.
+13:25:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:25:37 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+13:25:37 INFO  : 'jtag frequency' command is executed.
+13:25:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:25:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+13:25:37 INFO  : Memory regions updated for context MicroBlaze #0
+13:25:37 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:25:37 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+13:26:52 INFO  : Disconnected from the channel tcfchan#3.
+13:26:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+13:26:53 INFO  : 'fpga -state' command is executed.
+13:26:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:26:53 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+13:26:53 INFO  : 'jtag frequency' command is executed.
+13:26:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:26:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+----------------End of Script----------------
+
+13:26:53 INFO  : Memory regions updated for context MicroBlaze #0
+13:26:53 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:26:53 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local.tcl'
+13:37:47 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1533818253562,  Project:1533816516611
+13:37:47 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+13:49:09 INFO  : Project system_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+13:49:33 INFO  : Disconnected from the channel tcfchan#4.
+14:06:55 INFO  : Registering command handlers for SDK TCF services
+14:06:56 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+14:07:01 INFO  : XSCT server has started successfully.
+14:07:02 INFO  : Successfully done setting XSCT server connection channel  
+14:07:02 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+14:07:02 INFO  : Successfully done setting SDK workspace  
+14:24:48 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+14:24:53 INFO  : XSCT server has started successfully.
+14:24:56 INFO  : Successfully done setting XSCT server connection channel  
+14:24:56 INFO  : Successfully done setting SDK workspace  
+14:24:58 INFO  : Registering command handlers for SDK TCF services
+14:24:59 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+14:25:00 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+14:25:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1533821039739,  Project:1533819660717
+14:25:00 INFO  : The hardware specification for project 'system_wrapper_hw_platform_1' is different from C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+14:25:00 INFO  : Copied contents of C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_1\system.hdf.
+14:25:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:25:00 INFO  : Clearing existing target manager status.
+14:25:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:25:00 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:27:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:29:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:29:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:29:36 ERROR : bitstream is not compatible with the target
+14:29:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:30:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:30:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:30:32 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper_hw_platform_1/download.bit"
+14:31:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+14:31:29 INFO  : 'fpga -state' command is executed.
+14:31:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:29 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+14:31:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+14:31:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:32:05 INFO  : 'fpga -state' command is executed.
+14:32:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:05 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+14:32:05 INFO  : 'jtag frequency' command is executed.
+14:32:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:32:05 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:05 INFO  : Processor reset is completed for 'microblaze_0'.
+14:32:05 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:05 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+14:32:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+14:32:05 INFO  : Memory regions updated for context PA
+14:32:05 INFO  : Memory regions updated for context PA
+14:32:05 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:05 INFO  : 'con' command is executed.
+14:32:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+14:32:05 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+14:38:19 INFO  : Disconnected from the channel tcfchan#1.
+14:38:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:38:20 INFO  : 'fpga -state' command is executed.
+14:38:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:38:20 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+14:38:20 INFO  : 'jtag frequency' command is executed.
+14:38:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:38:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:20 INFO  : Processor reset is completed for 'microblaze_0'.
+14:38:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:20 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+14:38:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+14:38:21 INFO  : Memory regions updated for context PA
+14:38:21 INFO  : Memory regions updated for context PA
+14:38:21 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:21 INFO  : 'con' command is executed.
+14:38:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+14:38:21 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+14:39:25 INFO  : Disconnected from the channel tcfchan#2.
+14:39:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:39:26 INFO  : 'fpga -state' command is executed.
+14:39:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:26 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+14:39:26 INFO  : 'jtag frequency' command is executed.
+14:39:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:39:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:26 INFO  : Processor reset is completed for 'microblaze_0'.
+14:39:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:26 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+14:39:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+14:39:27 INFO  : Memory regions updated for context PA
+14:39:27 INFO  : Memory regions updated for context PA
+14:39:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:27 INFO  : 'con' command is executed.
+14:39:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+14:39:27 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+14:40:31 INFO  : Disconnected from the channel tcfchan#3.
+14:40:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:40:32 INFO  : 'fpga -state' command is executed.
+14:40:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:40:32 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+14:40:32 INFO  : 'jtag frequency' command is executed.
+14:40:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:40:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:32 INFO  : Processor reset is completed for 'microblaze_0'.
+14:40:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:32 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+14:40:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+14:40:33 INFO  : Memory regions updated for context PA
+14:40:33 INFO  : Memory regions updated for context PA
+14:40:33 INFO  : Context for processor 'microblaze_0' is selected.
+14:40:33 INFO  : 'con' command is executed.
+14:40:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+14:40:33 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+14:40:57 INFO  : Disconnected from the channel tcfchan#4.
+14:52:43 INFO  : Registering command handlers for SDK TCF services
+14:52:44 INFO  : Launching XSCT server: xsct.bat -interactive C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\temp_xsdb_launch_script.tcl
+14:52:49 INFO  : XSCT server has started successfully.
+14:52:49 INFO  : Successfully done setting XSCT server connection channel  
+14:52:50 INFO  : Successfully done setting SDK workspace  
+14:52:50 INFO  : Processing command line option -hwspec C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/system_wrapper.hdf.
+14:52:50 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+14:53:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:53:07 INFO  : 'fpga -state' command is executed.
+14:53:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:07 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+14:53:07 INFO  : 'jtag frequency' command is executed.
+14:53:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:53:07 INFO  : Context for processor 'microblaze_0' is selected.
+14:53:08 INFO  : Processor reset is completed for 'microblaze_0'.
+14:53:08 INFO  : Context for processor 'microblaze_0' is selected.
+14:53:08 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+14:53:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+14:53:08 INFO  : Memory regions updated for context PA
+14:53:08 INFO  : Memory regions updated for context PA
+14:53:08 INFO  : Context for processor 'microblaze_0' is selected.
+14:53:08 INFO  : 'con' command is executed.
+14:53:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+14:53:08 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+14:56:59 INFO  : Disconnected from the channel tcfchan#1.
+14:57:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+14:57:01 INFO  : 'fpga -state' command is executed.
+14:57:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:57:01 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+14:57:01 INFO  : 'jtag frequency' command is executed.
+14:57:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:57:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:57:01 INFO  : Processor reset is completed for 'microblaze_0'.
+14:57:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:57:01 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+14:57:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+14:57:01 INFO  : Memory regions updated for context PA
+14:57:01 INFO  : Memory regions updated for context PA
+14:57:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:57:01 INFO  : 'con' command is executed.
+14:57:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+14:57:01 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+15:15:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0} -index 1' command is executed.
+15:15:27 INFO  : 'fpga -state' command is executed.
+15:15:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:28 WARN  : Part name present in the hardware specification 'xc7a100tcsg324-1' doesn't match the one present on the target 'xc7z020'.
+15:15:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+15:15:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+15:15:53 INFO  : 'fpga -state' command is executed.
+15:15:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:54 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+15:15:54 INFO  : 'jtag frequency' command is executed.
+15:15:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:15:54 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:54 INFO  : Processor reset is completed for 'microblaze_0'.
+15:15:54 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:54 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+15:15:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+15:15:54 INFO  : Memory regions updated for context PA
+15:15:54 INFO  : Memory regions updated for context PA
+15:15:54 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:54 INFO  : 'con' command is executed.
+15:15:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+15:15:54 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+15:16:20 INFO  : Disconnected from the channel tcfchan#2.
+15:16:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A" && level==0} -index 0' command is executed.
+15:16:21 INFO  : 'fpga -state' command is executed.
+15:16:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:21 INFO  : Jtag cable 'Digilent Nexys 4 DDR 210292576523A' is selected.
+15:16:21 INFO  : 'jtag frequency' command is executed.
+15:16:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:16:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:21 INFO  : Processor reset is completed for 'microblaze_0'.
+15:16:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:21 INFO  : The application 'C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf' is downloaded to processor 'microblaze_0'.
+15:16:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+dow C:/xup/embedded/2018_2_microblz/lab1/lab1.sdk/mem_test/Debug/mem_test.elf
+----------------End of Script----------------
+
+15:16:21 INFO  : Memory regions updated for context PA
+15:16:21 INFO  : Memory regions updated for context PA
+15:16:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:21 INFO  : 'con' command is executed.
+15:16:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys 4 DDR 210292576523A"} -index 0
+con
+----------------End of Script----------------
+
+15:16:21 INFO  : Launch script is exported to file 'C:\xup\embedded\2018_2_microblz\lab1\lab1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mem_test.elf_on_local_(1).tcl'
+15:43:11 WARN  : channel "tcfchan#2" closed
+15:43:11 INFO  : Disconnected from the channel tcfchan#3.

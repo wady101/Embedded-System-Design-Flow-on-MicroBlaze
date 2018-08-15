@@ -1,0 +1,21 @@
+17:32:15 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab4_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.o" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   2096	   8504	   2138	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+
+17:32:48 Build Finished (took 32s.667ms)
+

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_clk_wiz_1_4_synth_1" LaunchDir="C:/xup/embedded/2018_2_microblz/lab1/lab1.runs/system_clk_wiz_1_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
