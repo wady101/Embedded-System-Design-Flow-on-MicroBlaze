@@ -1,0 +1,13 @@
+// Mem file initialization records.
+//
+// SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+// Vivado v2018.2 (64-bit)
+// Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+// Created on Tuesday August 14, 2018 - 03:56:02 pm, from:
+//
+//     Map file     - C:\xup\embedded\2018_2_microblz\lab5\lab5.srcs\sources_1\bd\system\system.bmm
+//     Data file(s) - c:/xup/embedded/2018_2_microblz/lab5/lab5.srcs/sources_1/bd/system/ip/system_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'system_i_microblaze_0.system_i_axi_bram_ctrl_0_bram_8K_2_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.

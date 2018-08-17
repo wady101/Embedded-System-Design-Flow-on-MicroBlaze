@@ -1,0 +1,21 @@
+11:52:55 **** Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10336	    336	   2284	  12956	   329c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+
+11:53:06 Build Finished (took 10s.635ms)
+

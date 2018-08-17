@@ -1,0 +1,1907 @@
+16:26:11 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling canps"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:32:18 **** Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_config_g.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/ps7_cortexa9_0/lib -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28368	   1184	  14392	  43944	   aba8	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+16:42:16 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:43:37 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:44:13 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+09:36:32 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/canps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling canps"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+09:40:04 **** Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_config_g.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/ps7_cortexa9_0/lib -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28368	   1184	  14392	  43944	   aba8	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+09:45:52 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+09:46:34 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+09:48:08 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+09:48:44 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:05:52 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:11:56 **** Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/memory_config_g.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -I../../mem_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8084	    272	   1076	   9432	   24d8	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+11:44:05 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+11:48:23 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+11:55:14 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+11:58:45 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+11:59:41 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+12:02:07 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+12:03:30 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+12:06:18 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+12:18:32 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:22:03 **** Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/memory_config_g.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6434	    272	   1078	   7784	   1e68	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+13:11:42 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+13:13:51 **** Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/memory_config_g.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6434	    272	   1078	   7784	   1e68	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+13:26:31 **** Auto Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6474	    272	   1078	   7824	   1e90	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+14:25:56 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:27:48 **** Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2342	    268	   3110	   5720	   1658	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+14:31:22 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:31:59 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:32:21 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:39:18 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:40:20 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:53:01 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:56:15 **** Auto Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1998	    268	   3110	   5376	   1500	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+14:56:51 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:59:00 **** Build of configuration Debug for project mem_t_del ****
+make all 
+'Building file: ../src/memory_config_g.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_t_del.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_t_del.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_t_del.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_t_del.elf  |tee "mem_t_del.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6434	    272	   1078	   7784	   1e68	mem_t_del.elf
+'Finished building: mem_t_del.elf.size'
+' '
+14:59:46 **** Build of configuration Debug for project hw_del ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hw_del.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hw_del.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hw_del.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hw_del.elf  |tee "hw_del.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2342	    268	   3110	   5720	   1658	hw_del.elf
+'Finished building: hw_del.elf.size'
+' '
+15:11:35 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+15:13:29 **** Build of configuration Debug for project mem_test ****
+make all 
+'Building file: ../src/memory_config_g.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6434	    272	   1078	   7784	   1e68	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+15:15:22 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+15:15:48 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+15:16:13 **** Incremental Build of configuration Debug for project mem_test ****
+make all 
+make: Nothing to be done for `all'.
+14:47:01 **** Build of project TestApp_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project TestApp ****
+
+Nothing to build for project TestApp
+14:52:55 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../TestApp_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2.d" -MT"src/lab2.o" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:28:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+    strsep
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TestApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6060	    308	   3120	   9488	   2510	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+14:58:30 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+14:59:57 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+17:02:14 **** Build of project lab4_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling led_ip..."
+led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+led_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+led_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab4 ****
+
+Nothing to build for project lab4
+17:06:57 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab4_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.o" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   3120	   9528	   2538	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+17:19:44 **** Incremental Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+17:20:26 **** Incremental Build of configuration Debug for project lab4 ****
+make all 
+make: Nothing to be done for `all'.
+17:28:38 **** Clean-only build of configuration Debug for project lab4 ****
+make clean 
+rm -rf  ./src/lab4_soln.o  ./src/lab4_soln.d  lab4.elf.size  lab4.elf
+' '
+17:28:42 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab4_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.o" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   2096	   8504	   2138	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+17:30:53 **** Clean-only build of configuration Debug for project lab4 ****
+make clean 
+rm -rf  ./src/lab4_soln.o  ./src/lab4_soln.d  lab4.elf.size  lab4.elf
+' '
+17:30:58 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab4_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.o" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   2096	   8504	   2138	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+17:31:28 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   2096	   8504	   2138	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+17:32:11 **** Clean-only build of configuration Debug for project lab4 ****
+make clean 
+rm -rf  ./src/lab4_soln.o  ./src/lab4_soln.d  lab4.elf.size  lab4.elf
+' '
+17:32:15 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab4_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.o" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   2096	   8504	   2138	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+16:17:43 **** Auto Build of project lab4_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling led_ip..."
+led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+led_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+led_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+16:25:04 **** Auto Build of configuration Debug for project lab4 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab4_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.o" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab4.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6100	    308	   2096	   8504	   2138	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+16:45:44 **** Build of project lab5_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling led_ip..."
+led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+led_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+led_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab5 ****
+
+Nothing to build for project lab5
+16:57:04 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'timer_int_handler':
+../src/lab5.c:32:12: warning: unused variable 'InstancePtr' [-Wunused-variable]
+   XTmrCtr *InstancePtr = (XTmrCtr *)CallBackRef;
+            ^~~~~~~~~~~
+In file included from ../src/lab5.c:18:0:
+../src/lab5.c: In function 'TmrCtrIntr':
+../src/lab5.c:92:20: error: 'XPAR_LED_IP_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_S_AXI_BASEADDR'?
+   LED_IP_mWriteReg(XPAR_LED_IP_0_BASEADDR,LEDChan, ~count);
+                    ^
+../../lab5_bsp/microblaze_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/lab5.c:92:20: note: each undeclared identifier is reported only once for each function it appears in
+   LED_IP_mWriteReg(XPAR_LED_IP_0_BASEADDR,LEDChan, ~count);
+                    ^
+../../lab5_bsp/microblaze_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/lab5.c:92:53: error: 'count' undeclared (first use in this function)
+   LED_IP_mWriteReg(XPAR_LED_IP_0_BASEADDR,LEDChan, ~count);
+                                                     ^
+../../lab5_bsp/microblaze_0/include/led_ip.h:35:49: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^~~~
+../src/lab5.c:97:5: error: 'one_second_flag' undeclared (first use in this function)
+  if(one_second_flag){
+     ^~~~~~~~~~~~~~~
+../src/lab5.c: In function 'main':
+../src/lab5.c:113:51: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    Status = XTmrCtr_Initialize(&TimerCounterInst, XPAR_DELAY_DEVICE_ID);
+                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                   XPAR_LED_IP_DEVICE_ID
+../src/lab5.c:118:52: error: 'XPAR_AXI_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_0_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:125:7: error: 'XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR'?
+       XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR,
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR
+make: *** [src/lab5.o] Error 1
+17:05:11 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'timer_int_handler':
+../src/lab5.c:32:12: warning: unused variable 'InstancePtr' [-Wunused-variable]
+   XTmrCtr *InstancePtr = (XTmrCtr *)CallBackRef;
+            ^~~~~~~~~~~
+In file included from ../src/lab5.c:18:0:
+../src/lab5.c: In function 'TmrCtrIntr':
+../src/lab5.c:92:20: error: 'XPAR_LED_IP_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_S_AXI_BASEADDR'?
+   LED_IP_mWriteReg(XPAR_LED_IP_0_BASEADDR,LEDChan, ~count);
+                    ^
+../../lab5_bsp/microblaze_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/lab5.c:92:20: note: each undeclared identifier is reported only once for each function it appears in
+   LED_IP_mWriteReg(XPAR_LED_IP_0_BASEADDR,LEDChan, ~count);
+                    ^
+../../lab5_bsp/microblaze_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/lab5.c:97:5: error: 'one_second_flag' undeclared (first use in this function)
+  if(one_second_flag){
+     ^~~~~~~~~~~~~~~
+../src/lab5.c: In function 'main':
+../src/lab5.c:113:51: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    Status = XTmrCtr_Initialize(&TimerCounterInst, XPAR_DELAY_DEVICE_ID);
+                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                   XPAR_LED_IP_DEVICE_ID
+../src/lab5.c:118:52: error: 'XPAR_AXI_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_0_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:125:7: error: 'XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR'?
+       XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR,
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR
+make: *** [src/lab5.o] Error 1
+17:07:52 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'timer_int_handler':
+../src/lab5.c:32:12: warning: unused variable 'InstancePtr' [-Wunused-variable]
+   XTmrCtr *InstancePtr = (XTmrCtr *)CallBackRef;
+            ^~~~~~~~~~~
+../src/lab5.c: In function 'TmrCtrIntr':
+../src/lab5.c:97:5: error: 'one_second_flag' undeclared (first use in this function)
+  if(one_second_flag){
+     ^~~~~~~~~~~~~~~
+../src/lab5.c:97:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c: In function 'main':
+../src/lab5.c:113:51: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    Status = XTmrCtr_Initialize(&TimerCounterInst, XPAR_DELAY_DEVICE_ID);
+                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                   XPAR_LED_IP_DEVICE_ID
+../src/lab5.c:118:52: error: 'XPAR_AXI_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_0_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:125:7: error: 'XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR'?
+       XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR,
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR
+make: *** [src/lab5.o] Error 1
+17:15:32 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'timer_int_handler':
+../src/lab5.c:32:12: warning: unused variable 'InstancePtr' [-Wunused-variable]
+   XTmrCtr *InstancePtr = (XTmrCtr *)CallBackRef;
+            ^~~~~~~~~~~
+../src/lab5.c: In function 'main':
+../src/lab5.c:113:51: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    Status = XTmrCtr_Initialize(&TimerCounterInst, XPAR_DELAY_DEVICE_ID);
+                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                   XPAR_LED_IP_DEVICE_ID
+../src/lab5.c:113:51: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:118:52: error: 'XPAR_AXI_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_0_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:125:7: error: 'XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR'?
+       XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR,
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR
+make: *** [src/lab5.o] Error 1
+17:17:19 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'timer_int_handler':
+../src/lab5.c:32:12: warning: unused variable 'InstancePtr' [-Wunused-variable]
+   XTmrCtr *InstancePtr = (XTmrCtr *)CallBackRef;
+            ^~~~~~~~~~~
+../src/lab5.c: In function 'main':
+../src/lab5.c:113:51: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    Status = XTmrCtr_Initialize(&TimerCounterInst, XPAR_DELAY_DEVICE_ID);
+                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                   XPAR_LED_IP_DEVICE_ID
+../src/lab5.c:113:51: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:118:52: error: 'XPAR_AXI_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_0_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:125:7: error: 'XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR'?
+       XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR,
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR
+make: *** [src/lab5.o] Error 1
+18:01:36 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:118:51: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    Status = XTmrCtr_Initialize(&TimerCounterInst, XPAR_DELAY_DEVICE_ID);
+                                                   ^~~~~~~~~~~~~~~~~~~~
+                                                   XPAR_LED_IP_DEVICE_ID
+../src/lab5.c:118:51: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:123:52: error: 'XPAR_AXI_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_0_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:130:7: error: 'XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR'?
+       XPAR_AXI_INTC_0_DELAY_INTERRUPT_INTR,
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       XPAR_AXI_INTC_AXI_TIMER_INTERRUPT_INTR
+make: *** [src/lab5.o] Error 1
+18:10:07 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:123:52: error: 'XPAR_AXI_INTC_AXI_INTC_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_DEVICE_ID'?
+    Status = XIntc_Initialize(&InterruptController, XPAR_AXI_INTC_AXI_INTC_DEVICE_ID);
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                    XPAR_AXI_INTC_DEVICE_ID
+../src/lab5.c:123:52: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab5.c:129:7: error: 'XPAR_DELAY_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+       XPAR_DELAY_DEVICE_ID,
+       ^~~~~~~~~~~~~~~~~~~~
+       XPAR_LED_IP_DEVICE_ID
+make: *** [src/lab5.o] Error 1
+18:11:24 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10336	    336	   3304	  13976	   3698	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+18:17:44 **** Clean-only build of configuration Debug for project lab5 ****
+make clean 
+rm -rf  ./src/lab5.o  ./src/lab5.d  lab5.elf.size  lab5.elf
+' '
+18:17:53 **** Auto Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10336	    336	   2284	  12956	   329c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+18:30:41 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+18:31:30 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+18:33:54 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+14:18:41 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for `all'.
+11:51:09 **** Build of project lab5_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling led_ip..."
+led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+led_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+led_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:52:55 **** Build of configuration Debug for project lab5 ****
+make all 
+'Building file: ../src/lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -I../../lab5_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10336	    336	   2284	  12956	   329c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+12:39:25 **** Build of project lab6_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling led_ip..."
+led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+led_ip_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+led_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab6 ****
+
+Nothing to build for project lab6
+13:00:48 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:18:28: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_LED_IP_DEVICE_ID'?
+    XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~
+                            XPAR_LED_IP_DEVICE_ID
+../src/lab6.c:18:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab6.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+make: *** [src/lab6.o] Error 1
+13:01:13 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6864	    348	   3116	  10328	   2858	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+15:24:28 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+15:26:03 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:25:47 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:31:42 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:33:13 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:33:47 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:35:16 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:36:54 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:39:44 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:28:4: error: expected ';' before 'xil_printf'
+    xil_printf("result=%x\r\n",i);
+    ^~~~~~~~~~
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+make: *** [src/lab6.o] Error 1
+16:39:56 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6908	    348	   3120	  10376	   2888	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:40:12 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:41:41 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:34 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:12:32 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:14:07 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:15:06 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+12:43:36 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+12:44:07 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+12:47:42 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+12:48:18 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+13:04:29 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+13:06:55 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6864	    348	   3116	  10328	   2858	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+13:30:15 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+13:38:42 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+14:11:51 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+14:12:42 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:34:45 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6860	    348	   3120	  10328	   2858	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:43:01 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6860	    348	   3120	  10328	   2858	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:43:14 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:45:40 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6628	    348	   3120	  10096	   2770	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:45:58 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:50:01 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6888	    348	   3116	  10352	   2870	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:50:13 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:51:33 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6892	    348	   3120	  10360	   2878	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:51:48 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:52:34 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6888	    348	   3116	  10352	   2870	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:53:08 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:57:22 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6888	    348	   3116	  10352	   2870	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:57:35 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+16:58:12 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:35:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:37:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+../src/lab6.c:10:22: warning: variable 'btns_check' set but not used [-Wunused-but-set-variable]
+    int i, sws_check, btns_check;
+                      ^~~~~~~~~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6888	    348	   3116	  10352	   2870	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+16:58:36 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:11:27 **** Auto Build of configuration Debug for project lab6 ****
+make all 
+'Building file: ../src/lab6.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -I../../lab6_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'main':
+../src/lab6.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab6.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+'Finished building: ../src/lab6.c'
+' '
+'Building target: lab6.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab6.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab6.elf  |tee "lab6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6580	    348	   3120	  10048	   2740	lab6.elf
+'Finished building: lab6.elf.size'
+' '
+17:12:53 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:13:38 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
+17:14:48 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for `all'.
