@@ -222,7 +222,7 @@ The led_ip_v1.0 IP will appear the IP in the Selected Repository window.
     Notice that the AXI Protocol being used is AXI4 instead of AXI4Lite since BRAM can provide higher bandwidth and the controller can support burst transactions.
 
 4.	Click on **Run Connection Automation** to add and connect a Block Memory Generator by selecting **axi_bram_ctrl_0/BRAM_PORTA** and click OK (This could be added manually)
-5.	Validate the design to ensure there are no errors (F6), and click the regenerate button ( ) to redraw the diagram.
+5.	Validate the design ![Validate](/pics/terminate.JPG) to ensure there are no errors (F6), and click the regenerate button ![regenerate](/pics/regenerate.JPG) to redraw the diagram.
 The design should look similar to the figure below.
 
   <p align="center">
