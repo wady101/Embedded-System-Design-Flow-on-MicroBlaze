@@ -18,14 +18,14 @@ After completing this lab, you will be able to:
 1.	In the Project Type form select **RTL Project**, and click Next
 1.	In the Add Sources form, select Verilog as the Target language and **Mixed** as the Simulator language, and click Next
 1.	Click Next one more time to skip Add Constraints
-1.	In the Default Part window, select the Boards tab, and depending on the board you are using, (if you can't find the board you are looking for, refer to [README.md]() for setup) and click Next.
+1.	In the Default Part window, select the Boards tab, and depending on the board you are using, (if you can't find the board you are looking for, refer to [README.md](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/blob/master/README.md) for setup) and click Next.
 2. Check the Project Summary (should be similar to what you see below) and click Finish to create an empty Vivado project.
 
     <p align="center">
     <img src ="/pics/lab1/1_summary.JPG" width="50%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Processor Design of this Lab</i>
+    <i>Project Summary</i>
     </p>
 
 
@@ -58,18 +58,13 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab1/4micro.JPG" width="30%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Add IP to Block Diagram</i>
+    <i>UART board component</i>
     </p>       
 4. Drag this board component to the _IP Diagram_ window.
 5. You will get a message saying that a new block was connected to the board component. Click **OK**
 6. 	Notice the message at the top of the Diagram window in a green label saying that Designer Assistance available. Click **Run Block Automation**.  
-7. A new window pops up called the Run Block Automation window. In it, select /microblaze_0. Select _16KB_ in the **Local Memory**, Select _Debug & UART_ in **Debug Module**  and leave the settings as default. Click **OK**. You will get a similar IP diagram as shown:
-    <p align="center">
-    <img src ="/pics/lab1/4micro.JPG" width="30%" height="80%"/>
-    </p>
-    <p align = "center">
-    <i>Add IP to Block Diagram</i>
-    </p>         
+7. A new window pops up called the Run Block Automation window. In it, select /microblaze_0. Select _16KB_ in the **Local Memory**, Select _Debug & UART_ in **Debug Module**  and leave the settings as default. Click **OK**.
+
 8. A block diagram will be generated. Double click on the clk_wiz_1 IP (The Clocking Wizard IP block).
 9. Select the _Output Clocks_ tab in the **Clocking Wizard** window. At the bottom you will see _Reset Type_. Select **Active Low**.
 
@@ -86,7 +81,7 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab1/5block.JPG" width="70%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Add IP to Block Diagram</i>
+    <i>Final IP block Diagram</i>
     </p>   
 
     You will see the MicroBlaze processor, one AXI Interconnects block- for AXI4-Lite capable devices. You will also see that the MDM and LMB are connected to the MicroBlaze ports directly.
@@ -114,7 +109,11 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i> The HDL Wrapper file generated and added to the project </i>
     </p>  
-1.	Notice that the VHDL file is already Set As the Top module in the design, indicated by the icon  
+1.	Notice that the VHDL file is already Set As the Top module in the design, indicated by the icon
+
+2. Next, go to **File > Add Sources**. Click on _Add or create constraints_.
+3. Click on **Add Files**. Go to **{sources}/lab1/** and select the corresponding constraint file to the board you are using. Click _Open_.
+4. Click  _Finish_.
 2. Click on **Generate Bitstream** in the _Flow Navigator_. A Launch Runs will pop up. Click **OK** and let Vivado generate the bitstream.(Save the block diagram if prompted).
 1.	Select **File > Export > Export hardware** and click OK. (Save the project if prompted)
 1.	Select **File > Launch SDK** leaving the default settings, and click OK
@@ -129,12 +128,11 @@ After completing this lab, you will be able to:
 
 1.	Generate memory test application using one of the standard projects template.
 1.	In SDK, select **File > New > Application Project**
+
 1.	Name the project **mem_test**, and in the Board Support Package section, leave Create New selected and leave the default name mem_test_bsp and click Next. Then click on Next
-   <!--          THIS MAYBE REQUIRED. I NEEDED TO EXUECTE THIS FOR ONE RUN WHEN I       CHANGED FOLDERS BUT DIDN'T NEED FOR THE OTHER RUNS I PERFORMED
-   ( If you do not see the shown Hardware Platform: Click on **New..>Browse..**, under Target Hardware Specification. You'll find **system_wrapper.hdf** file in **{labs} > lab1 > lab1.sdk** ).
-   -->
+
   <p align="center">
-  <img src ="/pics/lab1/aNewSDK.jpg" width="35%" height="80%"/>
+  <img src ="/pics/lab1/anewSDK.jpg" width="35%" height="80%"/>
   </p>
   <p align = "center">
   <i> SDK New Project window </i>
@@ -157,7 +155,7 @@ After completing this lab, you will be able to:
 
 ### Test in Hardware
 
-1.	Setup the hardware as shown in README.md
+1.	Setup the hardware as shown in [README.md](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/blob/master/README.md) according to the board you have.
 1.	Select the   tab.  If it is not visible then select Window > Show view > Other...
 1.  Select Terminal>Terminal and click OK
     <p align="center">
@@ -188,11 +186,18 @@ After completing this lab, you will be able to:
 1.	You should see the following output on the Terminal tab.
 
     <p align="center">
-   <img src ="/pics/lab1/etermop.jpg" width="80%"  height="80%"/>
+    <img src ="/pics/lab1/etermop.jpg" width="80%"  height="80%"/>
     </p>
     <p align = "center">
     <i> SDK Terminal Output </i>
     </p>  
+
     Such an output was generated becuase we are neither using the Data Caches nor the Instruction Cache of the Microblaze. Hence, there it shows cache memory is disabled.
 
 1.	Close SDK and Vivado  by selecting  **File > Exit**  in each program.      
+
+## Conclusion
+
+Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado.
+
+Software development is done in SDK which provides several application templates including memory tests. You verified the operation of the hardware by using a test application, executing on the processor, and observing the output in the serial terminal window.

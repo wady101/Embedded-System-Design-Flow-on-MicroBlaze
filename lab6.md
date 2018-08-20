@@ -82,7 +82,7 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
 1. Connect the **clk** port of the _vio\_0_ to Clk net.
 1. The block diagram should look similar to shown below.
     <p align="center">
-    <img src ="./pics/lab6/Fig6.png" width="90%" height="80%"/>
+    <img src ="./pics/lab6/Fig6.png" width="100%" height="100%"/>
     </p>
     <p align = "center">
     <i>VIO added and connections made</i>
@@ -96,7 +96,7 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
 
     The block diagram should look as shown below.
     <p align="center">
-    <img src ="./pics/lab6/Fig7.png" width="90%" height="80%"/>
+    <img src ="./pics/lab6/Fig7.png" width="100%" height="100%"/>
     </p>
     <p align = "center">
     <i>Block diagram of the design after marking AXI connection to the math_ip_0 instance for debugging</i>
@@ -118,7 +118,7 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
 
 1. Right click in the _Sources_ panel, and select **Add Sources.**
 1. Select _Add or Create Constraints_ and click **Next**.
-1. Click the _Plus_ button then **Add Files**, browse to **{sources}\lab6\** and select **Nexys-4-DDR.xdc** or **lab2\_pynqz2.xdc** depending on the board you are using.
+1. Click the _Plus_ button then **Add Files**, browse to **{sources}\lab6\** and select **Nexys-4-DDR-Master.xdc** or **Basys3-Master.xdc** depending on the board you are using.
 1. Click **OK** and then click **Finish.**
 1. Click on the **Generate Bitstream** to run the implementation and bit generation processes.
 1. Click **Save** to save the project (if prompted), **OK** to ignore the warning (if prompted), and **Yes** to launch Implementation (if prompted). Click **OK** to launch the runs.
@@ -177,14 +177,14 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
     </p> -->
     The hardware session status window also opens showing that the FPGA is programmed (we did it in SDK), there are three cores out of which the two ila cores are in the idle state.
     <p align="center">
-    <img src ="./pics/lab6/Fig14.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/Fig14.png" width="45%" height="80%"/>
     </p>
     <p align = "center">
     <i>Hardware session status</i>
     </p>
 1. Select the XC7Z100, and click on the **Run Trigger Immediate** button to see the signals in the waveform window.
     <p align="center">
-    <img src ="./pics/lab6/Fig15.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/Fig15.png" width="45%" height="80%"/>
     </p>
     <p align = "center">
     <i>Opening the waveform window</i>
@@ -197,7 +197,7 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
 1. Change the value of **WVALID** and **WREADY** to 1.
 1. Set the trigger position of the _hw\_ila\_2_ to **512** in the _Settings – hw\_ila\_2_
     <p align="center">
-    <img src ="./pics/lab6/Fig16.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/Fig16.png" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Setting up the ILA</i>
@@ -205,7 +205,7 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
 1. Similarly, set the trigger position in the _Settings __–__ hw\_ila\_1_ tab to **512**.
 1. Select **hw\_ila\_2** in the _Hardware_ window and click on the **Run Trigger** button (![alt tag](./pics/trigger.JPG))and observe that the _hw\_ila\_2_ core is armed and showing the status as **Waiting For Trigger**.
     <p align="center">
-    <img src ="./pics/lab6/Fig17.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/Fig17.png" width="45%" height="80%"/>
     </p>
     <p align = "center">
     <i>Hardware analyzer running and in capture mode</i>
@@ -293,7 +293,7 @@ We want to connect the ILA core to the LED interface.  Vivado prohibits connecti
 1. Press the push-buttons and see the corresponding LED turning ON and OFF.
 1. When the condition is met, the waveform will be displayed.
     <p align="center">
-    <img src ="./pics/lab6/Fig24.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/Fig24.png" width="75%" height="80%"/>
     </p>
     <p align = "center">
     <i>ILA waveform window after Trigger</i>

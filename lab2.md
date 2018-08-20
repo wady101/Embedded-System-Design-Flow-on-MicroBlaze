@@ -30,7 +30,7 @@ After completing this lab, you will be able to:
    <p align = "center">
    <i>Change AXI GPIO default name</i>
    </p>
-11. 11.	Double click on the _AXI GPIO block_(switches) to open the customization window.
+11. Double click on the _AXI GPIO block_(switches) to open the customization window.
 
 12.	From the _Board Interface_ drop down, select sws 16bits for _Basys 3_ and Nexsys4-DDR for **GPIO IP Interface**.
 13.	Next, click the IP configuration tab, and notice the GPIO width has already been set to match the switches on the board
@@ -49,7 +49,7 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab2/2AXImaster.JPG "  width="50%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Change AXI GPIO default name</i>
+    <i>Changing the number of Master Interfaces</i>
     </p>
 21.	Click on the s_axi port of the buttons AXI GPIO block (name: buttons), and drag the pointer towards the AXI Interconnect block.
 
@@ -85,7 +85,7 @@ After completing this lab, you will be able to:
     The width of the interface will be automatically determined by the upstream block.
 
 4.	For the buttons GPIO, click on the **_Run Connection Automation_** link (Green label).
-5.	In the opened GUI, select push_buttons_5bits for the _Nexsys4-DDR_ and _Basys3_ under the options section.
+5.	In the opened GUI, select push_buttons_5bits for the _Nexys4-DDR_ and _Basys3_ under the options section.
 6.	Click OK.
 7.	Select the created external port and change its name as buttons
 8.	Run Design Validation (**Tools -> Validate Design**) and verify there are no errors.
@@ -111,6 +111,7 @@ After completing this lab, you will be able to:
 
 1.	In SDK, right click on the mem_test project from the previous lab and select **Close Project**
 2.	Do the same for mem_test_bsp and system_wrapper_hw_platform_0
+
 3.	From the File menu select **File > New > Board Support Package**
 4.	Click Finish with the standalone OS selected and default project name as standalone_bsp_0
 5.	Click OK to generate the board support package named standalone_bsp_0
@@ -121,7 +122,7 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab2/5sdk.JPG "  width="60%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Application Project settings</i>
+    <i>New Application Project settings</i>
     </p>
 
 8.	Select Empty Application and click Finish
@@ -143,7 +144,7 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab2/6program.JPG"  width="50%" height="80%"/>
     </p>
     <p align = "center">
-    <i> SDK Terminal output </i>
+    <i> Programming FPGA </i>
     </p>
 
 2.	Click Program to download the hardware bitstream.  When FPGA is being programmed, the DONE LED (green color) will be off, and will turn on again when the FPGA is programmed
@@ -157,7 +158,7 @@ After completing this lab, you will be able to:
     <i> SDK Terminal output </i>
     </p>
 
-5.	Select Console tab and click on the Terminate button ( ) to stop the program
+5.	Select Console tab and click on the Terminate button ![terminate](/pics/terminate.jpg) to stop the program
 6.	Close SDK and Vivado programs by selecting **File > Exit** in each program
 7.	Power OFF the board
 

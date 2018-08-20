@@ -7,7 +7,7 @@ After completing this lab, you will be able to:
 *	Develop a linker script
 *	Partition the executable sections into both the DDR3 and BRAM spaces
 *	Generate an elf executable file
-*	Download the bitstream and application and verify on a Zynq board
+*	Download the bitstream and application and verify on a Artix 7 board
 
 ## Steps
 
@@ -235,7 +235,7 @@ You can determine your directory path and the current directory contents by usin
 You should see results similar to that below:
 
     <p align="center">
-    <img src ="/pics/lab4/4shellop.JPG" width="80%" height="80%"/>
+    <img src ="/pics/lab4/4shellop.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Object dump results - .text, .stack, and .heap in the DDR3 space </i>
@@ -250,7 +250,7 @@ You should see results similar to that below:
 1.	Select **Xilinx Tools > Program FPGA**.
 2. In Software Configuration, where the Processor tab says *microblaze_0*, change **ELF File to Initialize in Block RAM** to *C:\xup\embedded\2018_2_microblz\lab4\lab4.sdk\lab4\Debug\lab4.elf*
 2.	Click the Program button to program the FPGA.
-3.	Select lab4 in Project Explorer, right-click and select **Run As > Launch on Hardware (System Debugger)** to download the application, execute ps7_init, and execute lab4.elf
+3.	Select lab4 in Project Explorer, right-click and select **Run As > Launch on Hardware (System Debugger)** to download the application, and execute lab4.elf
 
     <p align="center">
     <img src ="/pics/lab4/5sdkop.JPG" width="30%" height="80%"/>
@@ -300,4 +300,6 @@ You should see results similar to that below:
 
 ## Conclusion
 
-Use SDK to define, develop, and integrate the software components of the embedded system.  You can define a device driver interface for each of the peripherals and the processor.  SDK imports an hdf file, creates a corresponding MSS file and lets you update the settings so you can develop the software side of the processor system.  You can then develop and compile peripheral-specific functional software and generate the executable file from the compiled object code and libraries.  If needed, you can also use a linker script to target various segments in various memories.  When the application is too big to fit in the internal BRAM, you can download the application in external memory and then execute the program.
+Use SDK to define, develop, and integrate the software components of the embedded system.  You can define a device driver interface for each of the peripherals and the processor.  SDK imports an hdf file, creates a corresponding MSS file and lets you update the settings so you can develop the software side of the processor system.  
+
+You can then develop and compile peripheral-specific functional software and generate the executable file from the compiled object code and libraries.  If needed, you can also use a linker script to target various segments in various memories.  When the application is too big to fit in the internal BRAM, you can download the application in external memory and then execute the program.

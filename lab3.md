@@ -3,6 +3,7 @@
 ## Objectives
 
 After completing this lab, you will be able to:
+
 *	Use the IP Packager feature of Vivado to create a custom peripheral  
 *	Modify the functionality of the IP
 *	Add the custom peripheral to your design
@@ -144,7 +145,7 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab3/4ipfile.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
-    <i> Compatibility under Package IP</i>
+    <i> File Groups in package </i>
     </p>
 
     This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic_*.v file that was added to the project.
@@ -237,7 +238,7 @@ The design should look similar to the figure below.
 8.  Also update the HDL wrapper by right clicking on the system.bd in the sources tab. Click on **Create HDL Wrapper**. Click **OK**.
 
 1.	Click **Add Sources** in the Flow Navigator pane, select **Add or Create Constraints**, and click Next.
-2.	Click the Blue Plus button, and then **Add Files…**, browse to the **{sources}\lab3** folder, select Nexys-4-DDR-Master.xdc for _Nexys 4 DDR_ board
+2.	Click the Blue Plus button, and then **Add Files…**, browse to the **{sources}\lab3** folder, select Nexys-4-DDR-Master.xdc for _Nexys 4 DDR_ board OR Basys-3-Master.xdc for _Basys 3_
 3.	Click **Finish** to add the file.
 4.	Expand Constraints folder in the Sources pane, and double click the **lab3_*.xdc** file entry to see its content. This file contains the pin locations and IO standards for the LEDs on the _Artix-7_ board. This information can usually be found in the manufacturer’s datasheet for the board.
 5.	Right click on system.bd and select Generate output products

@@ -4,9 +4,17 @@
 
 ## Labs outline
 
-Embedded Systems Development brings experienced FPGA designers up to speed on the capabilities and characteristics of the Xilinx MicroBlaze™ 32-bit soft processor core and the Embedded Development Kit (EDK) design environment. Developing embedded systems using the MicroBlaze and a set of soft peripherals is also included in the lectures and labs.
+The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design .
+
+   <p align="center">
+   <img src ="/pics/Readme/Completed_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design</i>
+   </p>
 
 ## Source file Setup
+
 To use the source files for each of the labs in this workshop, you have to clone this repository from Github. For that, do the following:
 
   If in **Windows**, download [Cmder](http://cmder.net/) or download [Git Bash](https://git-scm.com/download/win)
@@ -22,50 +30,93 @@ To use the source files for each of the labs in this workshop, you have to clone
   ```
   In the instructions for the labs;
   <!--shit gets reall from here -->
-  **{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/wady100/Embedded-System-Design-Flow-on-Zynq/tree/2018.1/sources)
+  **{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/sources)
 
   **{labs}** refers to the location which you will use as your workspace for the labs in the workshop
 
-  **{labsolutions}** refers to [here](https://github.com/wady100/Embedded-System-Design-Flow-on-Zynq/tree/2018.1/labsolutions/embedded)
+  **{labsolutions}** refers to [here](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/labsolutions/2018_2_microblz)
 
-# 1.     Install Xilinx software
+  ---
+  **NOTE**
 
-Professors may submit the online donation request form at <http://www.xilinx.com/member/xup/donation/request.htm> to obtain the latest Xilinx software.  The workshop was tested on a PC running MicroSoft Windows 7 Enterprise edition.  Debug is verified using SDK Terminal program.
+  Board support for the Basys3 and Nexys 4 DDR are not included in Vivado 2018.2 by default. The relevant files need to be extracted and saved to:
 
-  V14.2 EDK
+   {Vivado installation}\data\boards\board_files\
 
-  V14.2 ISE Foundation Software
+  These files can be downloaded from [/board_files](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/board_files) where this material is hosted.
 
-  V14.2  Chipscope-Pro
+  ---
 
-  Download and install software drivers, for serial communication using mini-USB2 cable, available at <http://www.ftdichip.com/Drivers/VCP.htm>
+## Hardware Setup
 
-  Download and install the board related “Digilent Plugin” available at http://www.digilentinc.com/Data/Products/NEXYS3/Nexys3_BSB_Support_v_2_6.zip and executing inst_uninst.bat filelocated at <extracted_dir>\Nexys3_BSB_Support_v_2_6\Digilent_AXI_IPCore_Support_v_1_33 after extracting the zip file.
+**Basys 3**:Connect a micro USB from the board to the PC. Make sure that a jumper is connected to JTAG (between JP1_2 and JP1_3) and another one of them should be connected across the USB pins (between JP1_2 and JP1_3)
 
+**Nexys 4 DDR**: Attach a micro USB cable in the slot provided. A jumper should be connected across USB (JP2_1 and JP2_2), another one should be across JTAG (JP1_2 and JP2_3) and finally one across USB for power(JP3_1 and JP_2)
 
+## Labs Overview:
 
-**2.**     **Setup hardware**
+### Lab 1
 
-Connect Nexys3 Board
+In this lab, you will use Vivado Suite and SDK to create a processor system consisting of the Microblaze processor IP and UART for serial communication
 
-a.     Connect programming cable between configuration port of Nexys3 Board and PC
+   <p align="center">
+   <img src ="/pics/Readme/lab1_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design of Lab 1</i>
+   </p>
 
-b.     Connect another micro USB cable between Nexys3 Board’s UART port  and PC USB port
+### Lab 2
 
-c.     Connect the power supply and power on the board
+This lab guides you through the process of adding additional IP to an existing processor system. You will add GPIO peripherals from the IP Catalog tab to interface to the push buttons and DIP switches on the Nexys4 DDR / Basys 3 Board. At the end of the lab, you will generate the bitstream and test the peripherals in hardware.
 
+   <p align="center">
+   <img src ="/pics/Readme/lab2_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design of Lab 2</i>
+   </p>
 
+### Lab 3
 
-3.     **Install distribution**
+You will extend the Lab 2 hardware design by creating and adding a AXI peripheral to the system, and connecting it to the LEDs on the Nexys4 DDR / Basys 3 Board. After creating your own custom IP, you will connect the peripheral to the system and add pin location constraints to connect the LEDs controller peripheral to the on-board LEDs.  
 
-Extract the labsource.zip file in c:\xup\embedded directory.   This will generate source folder and also extract two zip files (xmd_32.zip and xmd_64.zip), which are required for lab6 (see lab6 documentation)..
+   <p align="center">
+   <img src ="/pics/Readme/lab3_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design of Lab 3</i>
+   </p>
 
-The docs_pdf.zip file consists of lab documents and presentations in PDF format.  Extract this zip file in c:\xup\embedded\ directory or any directory of your choice.
+### Lab 4
 
+This lab guides you through the process of writing a basic software application.  The software
+will write to the LEDs on the Nexys4 DDR / Basys 3 Board.  You will add a BRAM controller and modify the linker script to place the text section in the BRAM.  Finally, you will verify that the design operates as expected in hardware.
 
+   <p align="center">
+   <img src ="/pics/Readme/lab4_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design of Lab 4</i>
+   </p>
 
+### Lab 5
 
+This lab guides you through the process of adding timer and interrupt controller to an embedded system and writing a software application that utilizes these timer and interrupt controller.  The SDK will be used to create and debug the software application.
 
-**4.**     **For Professors only**
+   <p align="center">
+   <img src ="/pics/Readme/lab5_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design of Lab 5</i>
+   </p>
 
-Download the labsolution.zip and docs_source.zip files using your membership account.  Do not distribute them to students or post them on a web site. The docs_source.zip file contains lab documents in Microsoft Word and presentations in PowerPoint format for you to use in your classroom.
+### Lab 6
+This lab guides you through the process of performing on-chip hardware/software verification using Vivado 's Inegrated Logic Analyzer (ILA) debugging IP and the software debugger.  
+
+   <p align="center">
+   <img src ="/pics/Readme/lab6_dn.jpg"  width="70%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Completed Design of Lab 6</i>
+   </p>

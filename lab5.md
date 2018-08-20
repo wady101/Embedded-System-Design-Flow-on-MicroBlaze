@@ -43,7 +43,7 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab5/1block.JPG"  width="90%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Change AXI GPIO default name</i>
+    <i>Final IP block diagram</i>
     </p>
 ### Generate Bitstream and Export to SDK
 
@@ -74,15 +74,16 @@ After completing this lab, you will be able to:
     <img src ="/pics/lab5/2firsterror.jpg "  width="60%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Change AXI GPIO default name</i>
+    <i>First error</i>
     </p>
 2.  Add the missing global variable declaration as **unsigned int,** initialize it to the value of 1, and save the file.  The first error message should disappear.  
+
 3. Click on the next error message to highlight the problem in the source code.
     <p align="center">
     <img src ="/pics/lab5/3secnderror.jpg"  width="60%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Change AXI GPIO default name</i>
+    <i>Second error and hopefully the last one</i>
     </p>
 4.  Add the missing global variable declaration as **int**, initialize it to the value of  0, and save the file. The program will be compiled again.
 
@@ -142,7 +143,7 @@ After completing this lab, you will be able to:
    <img src ="/pics/lab5/4linker.JPG"  width="60%" height="80%"/>
    </p>
    <p align = "center">
-   <i>Change AXI GPIO default name</i>
+   <i>Placing Heap and Stack</i>
    </p>
 
 4. Click **Generate** to generate the linker scrip. The program will be compiled again. Click **Yes** to overwrite file.
@@ -159,7 +160,7 @@ After completing this lab, you will be able to:
    <img src ="/pics/lab5/5program.JPG"  width="60%" height="80%"/>
    </p>
    <p align = "center">
-   <i>Change AXI GPIO default name</i>
+   <i>Programming FPGA</i>
    </p>
 
 2. Click **Program.**
@@ -182,7 +183,7 @@ After completing this lab, you will be able to:
    <img src ="/pics/lab5/6bp.jpg"  width="60%" height="80%"/>
    </p>
    <p align = "center">
-   <i>Change AXI GPIO default name</i>
+   <i>Adding a breakpoint</i>
    </p>
 
 5. Click on **Resume** ![Resume](/pics/resume.JPG) button to continue executing the program up until the breakpoint is reached.
@@ -196,10 +197,10 @@ After completing this lab, you will be able to:
 9. Notice that the count variables increment every time you click resume.
 
    <p align="center">
-   <img src ="/pics/lab5/7mem.jpg"  width="60%" height="80%"/>
+   <img src ="/pics/lab5/7mem.JPG"  width="60%" height="80%"/>
    </p>
    <p align = "center">
-   <i>Change AXI GPIO default name</i>
+   <i>Memory Tab of BRAM</i>
    </p>
 
 10. Close the SDK application and close the XPS project
